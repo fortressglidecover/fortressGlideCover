@@ -1,193 +1,228 @@
+<!DOCTYPE html>
 <html lang="en">
-   <head>
+
+<head>
+    <meta charset="UTF-8">
     <meta property="og:type" content="website">
     <meta property="og:title" content="FortressGlideCover">
-    <meta property="og:description" content="FortressGlideCover">
-    <meta name="twitter:card" content="summary_medium_image">
-    <meta name="twitter:site" content="@website-ScorecardsGolf">
+    <meta property="og:description" content="DIY Security Shutter Blueprint for Only $499">
+    <meta property="og:image" content="IMG_2252.jpg">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@website-ScorecardsGolf">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <link href="favicon2.png" rel="shortcut icon" type="image/x-icon" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-    
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="app.js"></script>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
+    <link rel="shortcut icon" href="favicon2.png" type="image/x-icon">
+    <title>FortressGlideCover</title>
 
-<title>FortressGlideCover</title>
+    <!-- CSS & JS -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: auto;
+            margin: auto;
+        }
+
+        header {
+            background: #fff;
+            box-shadow: 1px 1px 20px #000;
+            padding: 20px 0 0 50px;
+            font-size: 25px;
+        }
+
+        .hero {
+            background-image: url('IMG_2252.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 555px;
+            padding: 100px 50px 50px;
+            color: white;
+            text-shadow: 1px 0 20px black;
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .hero button {
+            font-size: 30px;
+            border-radius: 30px;
+            padding: 5px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .section {
+            color: white;
+            padding: 50px;
+            font-size: 35px;
+        }
+
+        .section.brown {
+            background-color: #846C5B;
+        }
+
+        .section.dark {
+            background-color: #332E3C;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        #cookie-popup {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 9999;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        #cookie-popup button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .modal,
+        #showLinkFullVideoID {
+            display: none;
+            border-radius: 20px;
+            background-color: antiquewhite;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .modal textarea {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .modal-close {
+            text-align: right;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
-<body style="max-width: 650px; ">
-<div style="display: flex; width: 100%;">
-<div style="height: 50px; font-size:25px; width: 100%;box-shadow: 1px 1px 20px #000000; padding: 20px 0 0 50px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">FortressGlideCover</div>
-<!-- <div style="text-align: right; width: 20%; margin-top: 15px;">Menu</div> -->
-</div>
-    <div class="divMaxWidth">
-        <div class="mainPicture">
-    
-      
-    
-           
-                <div style="background-image: url(IMG_2252.jpg); min-height: 555px; max-width: 650px; width: 100%; padding-left: 0px;" class="mainTopDiv">
-                    <div style="text-align: left; padding-top:100px; padding-left: 50px;">
-                        <div class="topTextBox" style="text-shadow: white 1px 0 20px; font-weight: bold; font-size: 58px;"> Security Shutters</div>
-                        <!-- <div style="font-size: 30px; text-shadow: white 1px 0 10px;">Security and Energy Efficiency</div> -->
-                      
-                        
+<body>
 
-                        <div style="font-size: 30px; text-shadow: white 1px 0 10px;"><br>All-in-One DIY <br> Blueprint Video <br>Guide for Only $499
-                        <br><br></div>
-                        <a href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-0e32c2f5b81342b8b29e9bff00892d854a20767f5d504cbb825d919819dc5128c156bca2dd514619a4b2f7379958cc51?locale=EN_US"
-                            target="_blank" rel="noopener noreferrer"> 
-                        <button onclick="showLinkFullVideo1()" style="font-size: 30px; border-radius: 30px; padding: 2px 10px;">Buy Now</button>
-                        <br><br>
-                        </a>
-                        <!-- <div style="font-size: 35px; text-shadow: white 1px 0 10px;">Schedule one of our certified installers</div>
-                        <button style="font-size: 35px;">Pre-order</button>  -->
-                      
-                      
-                        <!-- <button>Pre-order soon</button>
-                    </div>
-                     start Top Nav Bar-->
-                    <!-- <div style="display: flex; width: 100%; max-width: 650px; height: 45px ; padding: 2px; position: fixed; z-index: 1; background-color: white;     border-color: black;
-                    border-top-style: solid;
-                    border-top-width: medium;
-                    padding: 0px;
-                    box-shadow: 0px 0px 7px black; "> -->
-    
+    <header style="font-weight: 800; padding-bottom: 20px;" >
+        FortressGlideCover
 
-                <div class="mainLogo" style="margin:0px 40px 0px 2px;"></div>
+    </header>
 
-        <div style="margin-left:auto;">
-            <!-- <h7><a style="color: black; float: right; font-size: 28px; margin: 2px 12px; padding:3px;  " onclick="openNav()">
-                &#9776;</a></h7> -->
+    <main>
+        <section class="hero">
+            <h1>Security Shutters</h1>
+            <p>All-in-One DIY <br> Blueprint Video Guide for Only $499</p>
+            <a href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-0e32c2f5b81342b8b29e9bff00892d854a20767f5d504cbb825d919819dc5128c156bca2dd514619a4b2f7379958cc51?locale=EN_US"
+                target="_blank" rel="noopener noreferrer">
+                <button>Buy Now</button>
+            </a>
+        </section>
+
+        <div id="showLinkFullVideoID" class="modal" style="text-align: center;">
+            <div class="modal-close" onclick="closeShowLinkFullVideo()">X</div>
+            <a href="https://drive.google.com/file/d/1YrD-7U6eC1uQS8tCyps6RySt0vbwuPnJ/view?usp=sharing"
+                target="_blank">
+                Link: Full-Length DIY Blueprint & Guide
+            </a>
         </div>
-    <br>        
-</div>
-<!-- end Top Nav Bar -->
 
+        <div id="WindowSizePopUpId" class="modal">
+            <div class="modal-close" onclick="closeWindowSizePopUp()">X</div>
+            <h2>Enter Window Size & Receive Delivery Estimate</h2>
+            <textarea placeholder="Height"></textarea>
+            <textarea placeholder="Width"></textarea>
+            <button>Add more windows and doors</button>
+            <textarea placeholder="Name"></textarea>
+            <textarea placeholder="Email"></textarea>
+            <textarea placeholder="Phone"></textarea>
+        </div>
 
+        <section class="section brown">
+            Shutter Blueprint for Protection <br>
+            Install Security That Sells
+        </section>
 
-<!-- <div id="textId" class="textBox"> -->
-    <!-- <br> -->
-    <!-- <br>
-    <br> $499 per window door cover
-    <br> Launching Soon
-    <br> Pre-Order in the near future
-    <br>
-    <br><br><br> -->
- 
-    <!-- <button onclick="openWindowSizePopUp();" style="margin-left:0px; font-size: 29px;">Upload window sizes & Start your
-        Pre-Order
-    </button>
-    <br><br><br><br>
-</div> -->
+        <section class="section dark">
+            Security<br>
+            Severe Weather<br>
+            Energy Efficiency
+        </section>
+    </main>
 
-<!-- showLinkFullVideo -->
-<div id="showLinkFullVideoID" style=" margin: 0px 10%; height: 100px; display: none; border-radius: 20px; background-color: white; padding: 10px; text-align: center;">
-    <a style="text-align: left; font-size: 20px;" onclick="closeShowLinkFullVideo()"> X
-    </a>
-<a  href="https://drive.google.com/file/d/1YrD-7U6eC1uQS8tCyps6RySt0vbwuPnJ/view?usp=sharing" style="color: blue; text-align: center; padding-left:20px ;">
-Link Full Length Video: DIY Blueprint & Guide FortressGlideCover Security Shutter
-<br><br>
-</a>
-</div>
-<br><br><br>
-
-
-
-<!-- Pop Up Modal Window Size Entry -->
-<div id="WindowSizePopUpId" style="display: none; border-radius: 20px; background-color: antiquewhite; padding: 10px; text-align: center;" class="windowSizePopUpModal">
-
-    <div style="text-align: right; font-size: 36px;" onclick="closeWindowSizePopUp()"> X
-    </div>
-    
-    <h2>Enter Window Size & receive delivery estimate</h2>
-    <textarea>Height</textarea> <br>
-    <textarea>Width</textarea> <br> <br>
-    <button>Add more windows and doors</button> <br><br>
-    <textarea>Name</textarea> <br>
-    <textarea>Email</textarea> <br>
-    <textarea>Phone</textarea> <br>
-<br>
-</div>
-
-
-<!-- <div style="display: flex;">
-    <div style="background-color: antiquewhite; width: 50%; height: 200px;" ></div>
-    <div style="background-color: lightblue; width: 50%; height: 200px;"></div>
-</div>
-<div style="display: flex;">
-    <div style="background-color: rgb(196, 228, 196); width: 50%; height: 200px;"></div>
-    <div style="background-color: lightgrey; width: 50%; height: 200px;"></div>
-</div> -->
-
-
-
-
-</div>
-
-<!-- end of main picture -->
-<!-- <div class="secondImage">
-</div> -->
- </div>
- </div>
- </div>
-
-<div style="height: 150px; color:white; background-color: #846C5B; text-align: left; padding-top: 50px; padding-left:50px; font-size: 35px;">
-    Shutter Blueprint for Protection <br>    Install Security That Sells
-
-</div>
-<div style="height: 170px; color: white; background-color: #332E3C; text-align: left; padding-top:30px;padding-left:50px;  font-size: 35px;">
-     Security<br>
-    Severe Weather <br>
-     Energy Efficiency
-   <br>
-<br>
-</div>
-
-<!-- Cookie Popup -->
-<div id="cookie-popup"
-    style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #fff; border: 1px solid #ccc; padding: 20px; z-index: 9999; display: block; font-family: Arial, sans-serif; font-size: 14px;">
-    <p>
-        We use cookies to improve your experience on our site. By continuing, you agree to our use of cookies.
-        Read our <a style="font-size: 14px;" href="https://fortressglidecover.github.io/fortressGlideCover/privacy-policy.html" target="_blank"
-            style="color: blue; text-decoration: underline;">Privacy
-            Policy</a> for more information.
-    </p>
-    <button onclick="acceptCookies()"
-        style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
-        Accept Cookies
-    </button>
-</div>
-
-<script>
-    // Show popup if cookies not yet accepted
-    // if (!localStorage.getItem('cookiesAccepted')) {
-    //     document.getElementById('cookie-popup').style.display = 'block';
-    // }
-
-    // Function to accept cookies
-    function acceptCookies() {
-        // localStorage.setItem('cookiesAccepted', 'true');
-        document.getElementById('cookie-popup').style.display = 'none';
-    }
-</script>
-
-
-
-    <div style="color:white; background-color: black;" class="newfooter">
-    <div> FortressGlideCover LLC</div>
-    <div>FortressGlideCover@gmail.com</div>
-    <div> &copy; 2025 FortressGlideCover LLC <br>
-        All Rights Reserved.</div>
+    <div id="cookie-popup">
+        <p>
+            We use cookies to improve your experience. By continuing, you agree to our use of cookies.
+            <a href="https://fortressglidecover.github.io/fortressGlideCover/privacy-policy.html"
+                target="_blank">Privacy Policy</a>
+        </p>
+        <button onclick="acceptCookies()">Accept Cookies</button>
     </div>
 
+    <footer class="footer">
+        <br>
+<a style="text-decoration: none; color: white;"
+    href="https://fortressglidecover.github.io/fortressGlideCover/WreathLatch.html" target="_blank">Also explore our: WreathLatch</a>
+        <br><br><br>
+
+
+        <div>FortressGlideCover LLC</div>
+        <div>www.FortressGlideCover.com</div>
+        
+        <div>FortressGlideCover@gmail.com</div>
+        <div>&copy; 2025 FortressGlideCover LLC – All Rights Reserved.</div>
+    </footer>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById('cookie-popup').style.display = 'none';
+        }
+
+        function showLinkFullVideo1() {
+            document.getElementById('showLinkFullVideoID').style.display = 'block';
+        }
+
+        function closeShowLinkFullVideo() {
+            document.getElementById('showLinkFullVideoID').style.display = 'none';
+        }
+
+        function openWindowSizePopUp() {
+            document.getElementById('WindowSizePopUpId').style.display = 'block';
+        }
+
+        function closeWindowSizePopUp() {
+            document.getElementById('WindowSizePopUpId').style.display = 'none';
+        }
+    </script>
 
 </body>
 
